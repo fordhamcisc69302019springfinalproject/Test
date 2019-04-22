@@ -36,3 +36,16 @@
 | Relative absolute error       |  |          54.0053%|
 | Root relative squared error    |  |         76.5111%|
 | Total Number of Instances       |     32560   |  |
+
+#### Detailed Accuracy By Class
+|  |TP Rate | FP Rate | Precision | Recall  | F-Measure | MCC  |  ROC Area | PRC Area | Class |
+| ---- | ----- | ------ |---- | ----- | ---- | ----- | ---- | ----- | -----|
+|| 0.919 |   0.379  |  0.884   |   0.919  |  0.901    |  0.565  |  0.896   |  0.962   |   <=50K|
+        |  |         0.621  |  0.081   | 0.708    |  0.621  |  0.662   |   0.565 |   0.896   |  0.747   |   >50K|
+|Weighted Avg.  |  0.847  |  0.307  |  0.842  |    0.847  |  0.844  |    0.565 |   0.896    | 0.910 |
+
+#### Confusion Matrix
+ | a   |  b  | Classification|
+   | ---- | ----- | ------ |
+ |22713 | 2006 |     a =  <=50K|
+ | 2973 | 4868 |     b =  >50K|
