@@ -1,3 +1,14 @@
+# Parameter
+- TP: True Positive
+- FP: False Positive
+- FN: False Negative
+- TN: True Negative
+
+- FP Rate: sum(FP) / (sum(FP) + sum(TN))
+- Precision Rate: sum(TP) / (sum(TP) + sum(FP))
+- Recall Rate: sum(TP) / (sum(TP) + sum(FN))
+- Miss Rate: sum(FN) / (sum(TP) + sum(FN))
+
 ## Logistics Regression
 #### Summary
 | Criteria  | Stats | Result |
