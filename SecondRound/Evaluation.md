@@ -21,3 +21,23 @@ Therefore, we decide to use L1.
 ### Multi-class
 
 ### c
+
+## Random Forest
+### n_estimators
+The number of trees in the forest.
+
+### oob_score
+
+### criterion
+
+### max_features
+
+### max_depth
+
+### min_samples_split
+
+### min_weight_fraction_leaf
+
+### max_leaf_nodes
+
+### min_impurity_split
